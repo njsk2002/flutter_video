@@ -1,4 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.daram.vid_player">
+    <uses-permission android:name="adroid.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:label="vid_player"
         android:name="${applicationName}"
